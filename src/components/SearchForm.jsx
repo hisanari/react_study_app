@@ -1,4 +1,5 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 class SearchForm extends Component {
   constructor(props) {
@@ -31,7 +32,7 @@ class SearchForm extends Component {
   }
 }
 
-SearchForm.PropTypes = {
+SearchForm.propTypes = {
   onSubmit: PropTypes.func.isRequired,
 };
 
