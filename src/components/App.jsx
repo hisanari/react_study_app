@@ -4,6 +4,10 @@ import SearchPage from './SearchPage';
 
 const App = () => (
   <div className="app">
+    <ul className="left-navi">
+      <li><a href="/">ホテル検索</a></li>
+      <li><a href="/">About</a></li>
+    </ul>
     <SearchPage />
   </div>
 );
